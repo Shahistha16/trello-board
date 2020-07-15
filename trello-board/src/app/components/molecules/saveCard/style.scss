@@ -1,0 +1,18 @@
+@import "../../settings/variables.scss";
+
+.text-card {
+  background-color: $background-grey;
+  // box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  .card-view {
+    min-width: 250px;
+    background-color: $color-white;
+    padding: 6px 8px 2px;
+    height: auto;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+  }
+  .card-View:hover {
+    background-color: $background-grey;
+  }
+}

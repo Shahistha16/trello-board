@@ -1,0 +1,14 @@
+@import "../../settings/variables.scss";
+
+.textAreaView {
+  padding: 6px 8px 2px;
+  overflow: hidden;
+  font-size: 14px;
+  min-height: 66px;
+  max-height: 170px;
+  width: 256px;
+  background-color: $color-white;
+  border-radius: 6px;
+  margin: 0;
+  border: 1px solid $color-grey;
+}

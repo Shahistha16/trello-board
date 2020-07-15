@@ -1,0 +1,14 @@
+@import "../../settings/variables.scss";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  .list-view {
+    margin-right: 10px;
+  }
+  .addlist-view {
+    .addbtn-view {
+      background-color: hsla(0, 0%, 100%, 0.24);
+    }
+  }
+}

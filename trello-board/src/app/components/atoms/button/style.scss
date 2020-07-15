@@ -1,0 +1,12 @@
+@import "../../settings/variables.scss";
+
+.btn-component {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.24);
+  color: $color-black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid rgba(83, 87, 84, 0.612);
+  outline: none;
+}

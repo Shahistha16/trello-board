@@ -1,0 +1,23 @@
+@import "../../settings/variables.scss";
+
+.addBtn-view {
+  display: flex;
+  flex-wrap: wrap;
+  width: 272px;
+  background-color: $background-grey;
+  align-items: center;
+  .add-btn {
+    width: 272px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    .add-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .card-btn {
+    border: none;
+  }
+}

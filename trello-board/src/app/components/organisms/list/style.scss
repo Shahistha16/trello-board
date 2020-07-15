@@ -1,0 +1,35 @@
+@import "../../settings/variables.scss";
+
+.list-view {
+  background-color: $background-grey;
+  width: 300px;
+  border-radius: 5px;
+  .header-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: $background-grey;
+    padding: 0px 10px;
+    .header {
+      padding-top: 10px;
+    }
+    .menu-btn {
+      width: 32px;
+      height: 32px;
+      align-items: center;
+      background-color: $background-grey;
+      border: none;
+      padding-bottom: 10px;
+    }
+    .menu-btn:hover {
+      background-color: $color-grey;
+    }
+    .addbtn-view {
+      padding: 10px;
+    }
+  }
+  .card-view {
+    align-items: center;
+    padding: 10px;
+  }
+}

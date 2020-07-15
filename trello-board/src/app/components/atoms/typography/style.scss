@@ -1,0 +1,46 @@
+@import "../../settings/variables.scss";
+
+.text_wrapper {
+  /* margin: 0; */
+  line-height: 1.4;
+  color: $color-white;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.text_base {
+  font-size: 16px;
+}
+.text_xs {
+  font-size: 13px;
+}
+.text_s {
+  font-size: 14px;
+}
+.text_m {
+  font-size: 17px;
+}
+.text_l {
+  font-size: 21px;
+}
+.text_xl {
+  font-size: 30px;
+}
+.text_normal {
+  font-weight: 500;
+}
+.text_bold {
+  font-weight: 900;
+}
+.text_black {
+  color: $color-black;
+}
+.text_white {
+  color: $color-white;
+}
+.text_grey {
+  color: $text-grey;
+}
+.text_blue {
+  color: $text-blue;
+}

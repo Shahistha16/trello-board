@@ -1,0 +1,30 @@
+@import "../../settings/variables.scss";
+
+.addCardView {
+  .btn-view {
+    display: flex;
+    flex-wrap: wrap;
+    .button {
+      background-color: $color-green;
+      border: none;
+    }
+    .button:hover {
+      background-color: $color-green;
+    }
+    .cross-button {
+      border: none;
+      width: 32px;
+      height: 32px;
+      align-items: center;
+    }
+    .cross-button:hover {
+    }
+    .menu-button {
+      border: none;
+      width: 32px;
+      height: 32px;
+      align-items: center;
+      padding-left: 130px;
+    }
+  }
+}

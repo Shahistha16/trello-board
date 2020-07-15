@@ -1,0 +1,10 @@
+@import "../../settings/variables.scss";
+
+.textboxView {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid $color-grey;
+  height: auto;
+  width: 245px;
+  border-radius: 5px;
+}
