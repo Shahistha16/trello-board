@@ -18,7 +18,7 @@
     "@types/react-dom": "16.9.8",
     "css-loader": "3.6.0",
     "html-webpack-plugin": "4.3.0",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.0",
     "react-cosmos": "5.4.0",
     "sass-loader": "9.0.2",
     "source-map-loader": "1.0.1",
